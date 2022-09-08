@@ -1,0 +1,68 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+img
+{
+    width: 80px;
+    height: 80px;
+}
+nav
+{
+    width: 1200px;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    background-color: aqua;
+    font-weight: bold;
+    font-size: 30px;
+    
+}
+/* nav input
+{
+    width: 500px;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+} */
+/* nav button
+{
+    width: 50px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: darkorange;
+} */
+nav a
+{
+    /* background-color: blue; */
+    color: white;
+    text-decoration: none;
+}
+.animes-list
+{
+    /* background-color: blue; */
+    color: white;
+    display: grid;
+    grid-template-columns: 600px 600px;
+    justify-content: center;
+
+}
+.anime
+{
+    background-color: rgb(93, 217, 136);
+}
+.anime button
+{
+    background-color: transparent;
+    border: none;
+    font-size: 50px;
+    
+}
+.anime button:active
+{
+    transform: scale(1.5);
+}
